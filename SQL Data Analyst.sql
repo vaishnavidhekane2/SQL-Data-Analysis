@@ -135,8 +135,11 @@ SELECT
 FROM ktm
 GROUP BY customer_id;
 
+-- Optimize Queries Using Indexes
+SELECT * FROM ktm
+WHERE customer_id = 111;
 
-
-
+SELECT * FROM ktm
+WHERE order_date BETWEEN '2025-02-01' AND '2025-03-01';
 
 
